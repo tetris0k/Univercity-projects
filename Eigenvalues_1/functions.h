@@ -1,0 +1,17 @@
+double Aij(int , int );
+int func_input(double* , int );
+int file_input(FILE* , int , double* );
+void file_output(FILE* , int , int , double* );
+double matrix_norm(int , double* );
+double vector_norm(double* , int );
+int QR(double* ,int , double* , double* );
+void Xotr(double* , int , int , double* , double* );
+void UA(double* , double* , double* , int , int );
+int AU(double* , double* , double* , int , int );
+void PrintVector(int , double* , int );
+void PrintMatrix(int , double * , int );
+void TDiag(double* , int );
+int values(double* , int , double* , double* , double* , double );
+int issym(double* , int  );
+double inv_trace(double* , int );
+double inv_length(double* , int );

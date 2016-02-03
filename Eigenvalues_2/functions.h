@@ -1,0 +1,10 @@
+int file_input(FILE* , int , double* );
+void file_output(FILE* , int , double* );
+double Aij(int , int );
+int func_input(double* ,int );
+double get_time();
+void PrintMatrix(int , double * , int);
+void FindValues(int , double* , double* , double , double* , double* );
+void PrintVector(int , double* , int ); 
+void TrigOtra(int , double* );
+double Norm(int , double* );
